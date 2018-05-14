@@ -1,0 +1,459 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif, serif;
+}
+
+.container {
+    width: 1274px;
+    margin: 0 auto;
+}
+
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 17px 16px 13px 35px;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 23px 0 30px;
+}
+
+.logo {
+    float: left;
+}
+
+span {
+    color: rgb(93,227,210);
+    font-weight: bold;
+}
+
+.slider {
+    background: linear-gradient(white, lightgray);
+    width: 100%;
+    height: 587px;
+}
+
+.slider-box {
+    height: 508px;
+    width: 50%;
+    display: inline-block;
+}
+
+.arrow-left1 {
+    width: 44px;
+    height: 4px;
+    background: rgb(93, 227, 210);
+    position: relative;
+    top: 242px;
+    left: 17px;
+    border: 0;
+    transform: rotate(32deg);
+}
+
+.arrow-left2 {
+    width: 44px;
+    height: 4px;
+    background: rgb(93,227,210);
+    position: relative;
+    top: 214px;
+    left: 19px;
+    border: 0;
+    transform: rotate(-30deg);
+}
+
+.image-armchair {
+    background-image: url(../images/black_chair.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    position: relative;
+    top: 64px;
+    left: -5px;
+}
+
+.slider-text {
+    text-align: center;
+    float: left;
+    position: relative;
+    top: 78px;
+    left: -126px;
+    line-height: 1;
+}
+
+.slider-text h2 {
+    padding: 73px 0 39px 23px;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.slider-box p {
+    padding: 0px 39px 17px 80px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.button-slider {
+    background-color: rgb(93,227,210);
+    width: 316px;
+    border-radius: 11px;
+    margin: 21px 179px;
+}
+
+.button-slider a {
+    line-height: 70px;
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+}
+
+.button-slider a:hover {
+    color: black;
+}
+
+.arrow-right1 {
+    width: 44px;
+    height: 4px;
+    background: rgb(93,227,210);
+    position: relative;
+    bottom: 176px;
+    left: 710px;
+    border: 0;
+    transform: rotate(32deg);
+}
+
+.arrow-right2 {
+    width: 44px;
+    height: 4px;
+    background: rgb(93,227,210);
+    position: relative;
+    bottom: 158px;
+    left: 709px;
+    border: 0;
+    transform: rotate(-30deg);
+}
+
+.offer {
+    float: left;
+    background-color: white;
+    width: 100%;
+    height: 417px;
+    padding: 33px 0 0 10px;
+}
+
+.offer-box {
+    width: 397px;
+    height: 272px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    margin-right: 29px;
+}
+
+.image-chair {
+    background-image: url("../images/box1_img.jpg");
+    background-size: cover;
+}
+
+.image-kid {
+    background-image: url("../images/box2_img.jpg");
+    background-size: cover;
+}
+
+.offer-bar {
+    height: 75px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: 177px;
+}
+
+.bar-text {
+    position: absolute;
+    top: 19px;
+    left: 22px;
+    font-size: 18px;
+}
+
+.offer-thingamabob {
+    height: 9px;
+    width: 166px;
+    background-color: rgb(93,227,210);
+    position: absolute;
+    left: 15px;
+    top: 39px;
+}
+
+.offer-box3 {
+    width: 406px;
+    height: 303px;
+    border: 1px solid lightgrey;
+    position: relative;
+    padding: 33px 25px;
+    display: inline-block;
+    top: -17px;
+    left: -3px;
+}
+
+.box3-thingamabob {
+    height: 9px;
+    width: 166px;
+    background-color: rgb(93,227,210);
+    position: absolute;
+    left: 27px;
+    top: 55px;
+}
+
+.offer-box3 h3 {
+    margin: 0 0 22px;
+}
+
+.offer-box3 p {
+    margin: 0 0 22px;
+}
+
+.price-list {
+    float: left;
+    background-color: #EBEDED;
+    width: 100%;
+    padding: 77px 0 0 10px;
+    height: 900px;
+}
+
+.price-list p {
+    position: relative;
+    color: gray;
+    font-size: 26px;
+    top: -20px;
+}
+
+.box-part1 p:nth-child(1) {
+    position: absolute;
+    top: 35px;
+    color: rgb(93,227,210);
+    font-size: 26px;
+    left: 121px;
+}
+
+.price-box {
+    width: 394px;
+    height: 598px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    position: relative;
+    top: 245px;
+    margin-right: 32px;
+}
+
+.price-box2 {
+    width: 397px;
+    height: 602px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    position: relative;
+    top: 242px;
+}
+
+.price-box2 .circle-inside {
+    width: 155px;
+    height: 155px;
+    border: 2px solid lightgray;
+    content: "";
+    border-radius: 75px;
+    position: absolute;
+    top: 97px;
+    left: 120px;
+    z-index: 1;
+}
+
+.price-box3 {
+    width: 394px;
+    height: 601px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    position: relative;
+    top: 76px;
+    left: 35px;
+    margin-right: 32px;
+}
+
+.price-box::before {
+    width: 30px;
+    height: 30px;
+    content: "";
+    border-radius: 50px;
+    position: absolute;
+    top: -28px;
+    left: 180px;
+    background-color: grey;
+    z-index: 2;
+}
+
+.price-box::after {
+    width: 63px;
+    height: 63px;
+    border: 2px solid grey;
+    content: "";
+    border-radius: 50px;
+    position: absolute;
+    top: -47px;
+    left: 162px;
+    background-color: white;
+    z-index: 1;
+}
+
+.price-box2::before {
+    width: 30px;
+    height: 30px;
+    content: "";
+    border-radius: 50px;
+    position: absolute;
+    top: -28px;
+    left: 183px;
+    background-color: #EBEDED;
+    z-index: 2;
+}
+
+.price-box2::after {
+    width: 63px;
+    height: 63px;
+    border: 2px solid rgb(93,227,210);
+    content: "";
+    border-radius: 50px;
+    position: absolute;
+    top: -46px;
+    left: 164px;
+    background-color: rgb(93,227,210);
+    z-index: 1;
+}
+
+.price-thingamabob {
+    height: 9px;
+    width: 383px;
+    background-color: rgb(93, 227, 210);
+    position: relative;
+    top: -15px;
+}
+
+.price-box .box-part1 {
+    height: 290px;
+    background-color: white;
+}
+
+.circle-inside {
+    width: 155px;
+    height: 155px;
+    border: 2px solid lightgray;
+    content: "";
+    border-radius: 75px;
+    position: absolute;
+    top: 96px;
+    left: 117px;
+    z-index: 1;
+}
+
+.box-part1 .price1 {
+    color: gray;
+    position: absolute;
+    font-size: 51px;
+    top: 135px;
+    left: 163px;
+}
+
+.box-part1 .price2 {
+    color: gray;
+    position: absolute;
+    font-size: 19px;
+    top: 135px;
+    left: 222px;
+}
+
+.box-part1 .price3 {
+    color: gray;
+    position: absolute;
+    font-size: 20px;
+    top: 195px;
+    left: 152px;
+}
+
+.box-part2 {
+    height: 57px;
+    background-color: lightgray;
+}
+
+.box-part2 p {
+    color: grey;
+    font-size: 29px;
+    position: relative;
+    top: 8px;
+    left: 55px;
+}
+
+.box-part3 {
+    height: 52px;
+    background-color: grey;
+}
+
+.box-part3 p {
+    color: lightgrey;
+    font-size: 29px;
+    position: relative;
+    top: 14px;
+    left: 153px;
+}
+
+.box-part4 {
+    height: 167px;
+    background-color: white;
+}
+
+.button-pricelist {
+    background-color: rgb(93,227,210);
+    height: 30px;
+    border-radius: 11px;
+    top: 143px;
+    padding: 14px 33px;
+    position: relative;
+    left: 126px;
+}
+
+.button-pricelist a {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 100;
+    overflow: auto;
+}
+
+.button-pricelist a:hover {
+    color: black;
+}
+
+<!-- Fonts -->
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway/Raleway-Bold.eot');
+    src: local('../fonts/Raleway/Raleway Bold'), local('Raleway-Bold'),
+    url('../fonts/Raleway/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway/Raleway-Bold.woff2') format('woff2'),
+    url('../fonts/Raleway/Raleway-Bold.woff') format('woff'),
+    url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype'),
+    url('../fonts/Raleway/Raleway-Bold.svg#Raleway-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
